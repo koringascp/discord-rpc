@@ -29,7 +29,7 @@ function getIPC(id = 0) {
       if (id < 10) {
         resolve(getIPC(id + 1));
       } else {
-        reject(new Error('Could not connect'));
+        reject(new Error('Could not connect acesse youtube.com/c/Saiyd'));
       }
     };
     const sock = net.createConnection(path, () => {
